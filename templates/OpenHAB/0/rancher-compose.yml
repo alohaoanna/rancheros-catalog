@@ -1,11 +1,10 @@
 version: '2'
+
 catalog:
   name: OpenHAB
   version: latest
-  # description:
-  # minimum_rancher_version:
-  # maximum_rancher_version:
-  # upgrade_from:
+  description: "An open source, technology agnostic home automation platform"
+  upgrade_from: "2.0.0"
   questions:
 
     - variable: "IMAGE_ARCHITECTURE"
