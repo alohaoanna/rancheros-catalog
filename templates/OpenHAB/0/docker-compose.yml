@@ -23,6 +23,11 @@ services:
 {{- end}}
       OPENHAB_HTTP_PORT: "${HTTP_PORT}"
       OPENHAB_HTTPS_PORT: "${HTTPS_PORT}"
+      LC_ALL: "${LC_ALL}"
+      LANG: "${LANG}"
+      LANGUAGE: "${LANGUAGE}"
+      USER_ID: "${USER_ID}"
+      GROUP_ID: "${GROUP_ID}"
     image: "openhab/openhab:2.5.3-${IMAGE_ARCHITECTURE}-${IMAGE_DISTRIBUTION}"
     labels:
       io.rancher.container.pull_image: always

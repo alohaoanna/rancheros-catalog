@@ -49,6 +49,36 @@ catalog:
       type: "string"
       required: false
 
+    - variable: "LC_ALL"
+      label: "Var LC_ALL"
+      default: "en_US.UTF-8"
+      type: "string"
+      required: false
+
+    - variable: "LANG"
+      label: "Var LANG"
+      default: "en_US.UTF-8"
+      type: "string"
+      required: false
+
+    - variable: "LANGUAGE"
+      label: "Var LANGUAGE"
+      default: "en_US.UTF-8"
+      type: "string"
+      required: false
+
+    - variable: "USER_ID"
+      label: "Var USER_ID"
+      default: 9001
+      type: "int"
+      required: false
+
+    - variable: "GROUP_ID"
+      label: "Var GROUP_ID"
+      default: 9001
+      type: "int"
+      required: false
+
     - variable: "USE_HOST_TIME"
       label: "Use Host Time"
       description: "Adds /etc/localtime and /etc/timezone as volumes from the host for providing timezone information"
