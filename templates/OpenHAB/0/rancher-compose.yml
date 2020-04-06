@@ -4,7 +4,6 @@ catalog:
   name: OpenHAB
   version: latest
   description: "An open source, technology agnostic home automation platform"
-  upgrade_from: "2.0.0"
   questions:
 
     - variable: "IMAGE_ARCHITECTURE"
