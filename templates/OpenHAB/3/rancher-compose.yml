@@ -1,8 +1,8 @@
-version: '2.2'
+version: '2'
 
 catalog:
   name: OpenHAB
-  version: latest
+  version: "2.5"
   description: "An open source, technology agnostic home automation platform"
   questions:
 
@@ -146,7 +146,7 @@ catalog:
     - variable: "EXTRA_JAVA_OPTS"
       label: "Extra Java Options"
       description: "Starts the openHAB JVM with the provided extra options. Example: '-Dgnu.io.rxtx.SerialPorts=/dev/ttyAMA0:/dev/zwave'"
-      default: "-Duser.timezone=Europe/Berlin"
+      default: ""
       type: "string"
       required: false
 
