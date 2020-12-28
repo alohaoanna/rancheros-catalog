@@ -2,7 +2,7 @@ version: '2.2'
 
 catalog:
   name: OpenHAB
-  version: 3
+  version: latest
   description: "An open source, technology agnostic home automation platform"
   questions:
 
