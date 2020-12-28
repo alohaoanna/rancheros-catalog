@@ -1,5 +1,3 @@
-version: '2.2'
-
 catalog:
   name: OpenHAB
   version: "3.0"
