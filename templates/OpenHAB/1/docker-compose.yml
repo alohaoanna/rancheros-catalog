@@ -28,7 +28,7 @@ services:
       LANGUAGE: "${LANGUAGE}"
       USER_ID: "${USER_ID}"
       GROUP_ID: "${GROUP_ID}"
-    image: "openhab/openhab:3.0.0-${IMAGE_ARCHITECTURE}-${IMAGE_DISTRIBUTION}"
+    image: "openhab/openhab:3.0.0"
     labels:
       io.rancher.container.pull_image: always
 {{- if ne .Values.HOST_LABEL ""}}
