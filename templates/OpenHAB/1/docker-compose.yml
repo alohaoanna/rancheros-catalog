@@ -1,4 +1,4 @@
-version: '2'
+version: '2.2'
 services:
   openhab:
 {{- if eq .Values.PCAP_SUPPORT_ENABLED "true"}}
@@ -28,7 +28,7 @@ services:
       LANGUAGE: "${LANGUAGE}"
       USER_ID: "${USER_ID}"
       GROUP_ID: "${GROUP_ID}"
-    image: "openhab/openhab:2.5.3-${IMAGE_ARCHITECTURE}-${IMAGE_DISTRIBUTION}"
+    image: "openhab/openhab:3.0.0-${IMAGE_ARCHITECTURE}-${IMAGE_DISTRIBUTION}"
     labels:
       io.rancher.container.pull_image: always
 {{- if ne .Values.HOST_LABEL ""}}
